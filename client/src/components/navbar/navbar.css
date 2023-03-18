@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e2e8f0 ;
+    align-items: center;
+    padding: 13px;
+    line-height: 2px;
+}
+.navbar__left{
+    display: flex;
+}
+.navbar__left-menu{
+    display: flex;
+    margin-left: 40px;
+}
+
+.navbar__left-menu li a{
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 3px 16px;
+  display: block;
+
+}
+
+.navbar__left-menu li a:hover{
+    color: #000000
+}
+
+.navbar__right a:first-child{
+    margin-right: 5px;
+    
+}
